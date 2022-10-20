@@ -3,7 +3,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
   try {
@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
   });
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   try {
     const tagData = await Tag.destroy({
       where: { id: req.params.id }
