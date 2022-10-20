@@ -17,7 +17,8 @@ This is an backend-service application for a e-commerce site, that involes the u
   * `npm run seed`
 
 * Run `npm start` to run the app and start the server. The user can then navigate to the port displayed in the terminal or use Insomnia.
+## Video Walkthrough
 
 
-## Usage
-
+## Questions
+For questions, comments, or suggestions, please reach out to [mffonua](https://github.com/mffonua) or via email at <a href="mailto:myles.fonua@gmail.com">myles.fonua@gmail.com</a>.
